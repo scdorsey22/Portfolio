@@ -2317,4 +2317,5 @@ input, select, textarea {
 	object-fit: cover;
 	width: 500px;
 	height: 700px;
+	padding: 0;
 }
