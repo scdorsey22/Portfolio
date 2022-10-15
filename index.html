@@ -20,10 +20,9 @@
   <body class="is-preload">
     <!-- Header -->
     <header id="header">
-      <h1>Shane Dorsey</h1>
+      <h1><a href="#intro">Shane Dorsey</a></h1>
       <nav>
         <ul>
-          <li><a href="#intro">Intro</a></li>
           <li><a href="#one">About Me</a></li>
           <li><a href="#two">My Skills</a></li>
           <li><a href="#work">Projects/Resume</a></li>
@@ -36,11 +35,10 @@
     <section id="intro" class="main style1 dark fullscreen">
       <div class="content">
         <header>
-          <h2>Shane's Portfolio</h2>
+          <h2>Hello, I'm Shane Dorsey</h2>
         </header>
         <p>
-          Welcome to <strong>Big Picture</strong>, here is a quick look into
-          what i do and who i am.
+          I am a <strong>Full Stack Developer</strong>, based in California.  Here is a quick look into who i am and what i do.
         </p>
         <footer>
           <a href="#one" class="button style2 down">More</a>
@@ -56,8 +54,8 @@
         </header>
         <p>
           I am a Full Stack Developer with experience in both the Tech and
-          Insurance industries. Before completing my Software Engineering course at FlatIron Shcool, 
-		  I spent 6 months working as a Web
+          Insurance industries. Before completing my Software Engineering course at FlatIron School, 
+		      I spent 6 months working as a Web
           Analyst/Product Manager using Agile to help clients manage their
           Growth Stack Tools (Webflow, Google Analytics, Hubspot, Segment, etc).
           I also spent 8+ years as a sales professional, consulting C-suite and
@@ -76,10 +74,10 @@
         <header>
           <h2>My Skills</h2>
         </header>
-        <p>
-			React, Ruby, Ruby on Rails, ActiveRecord, Javascript, HTML, CSS, PostgreSQL, GitHub, Google Tag Manager, Google Analytics, WebFlow, Hubspot, Salesforce, Typeform
-
-        </p>
+        <p><strong>Front End:</strong> React, Javascript, HTML5, CSS, Material UI, Bootstrap</p>
+        <p><strong>Back End</strong> Ruby, Ruby on Rails, ActiveRecord, SQL, PostgreSQL</p>
+        <p><strong>Tools:</strong> Git, Github, Heroku, Postman, Google Analytics, Google Tag Manager, Typeform, </p>
+        <p><strong>Currently Working On:</strong> Vue, MongoDB, Redux, Firebase</p>
       </div>
       <a href="#work" class="button style2 down anchored">Next</a>
     </section>
@@ -90,31 +88,37 @@
         <header>
           <h2>My Projects/Resume</h2>
           <p>
-            React and Rails Fullstack applications and Resume.  Click on photo demo or Github repo.
+            React and Rails Fullstack applications and Resume.  Click on photo demo or Github repo to see more.
           </p>
         </header>
 
         <!-- Gallery  -->
         <div class="gallery">
           <article class="from-left">
-            <a href="https://blooming-spire-08704.herokuapp.com" target="_blank" class="image fit"
-              ><img src="images/Projects/Golf_App_Thumb.png" title="Golf Fore Friends" alt=""
-            /></a>
+            <a href="https://blooming-spire-08704.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="image fit">
+              <img src="images/Projects/Golf_App_Thumb.png" title="Golf Fore Friends" alt=""/>
+              <figcaption>Golf Fore Friends</figcaption>
+            </a>
           </article>
           <article class="from-right">
-            <a href="https://stark-fortress-61461.herokuapp.com" target="_blank" class="image fit"
+            <a href="https://stark-fortress-61461.herokuapp.com/" target="_blank" class="image fit"
               ><img src="images/Projects/Weather_App-Thumb_2.png" title="Weather App" alt=""
-            /></a>
+            />
+            <figcaption>Weather App</figcaption>
+          </a>
           </article>
-          <article class="from-left">
-            <a href="images/fulls/03.jpg" class="image fit"
-              ><img src="images/thumbs/03.jpg" title="Air Lounge" alt=""
-            /></a>
-          </article>
+          <!-- <article class="from-left">
+            <a href="https://denver-city-limits.herokuapp.com/" target="_blank" class="image fit"><img
+                src="images/Projects/Golf-Twitter-Thumbnail.png" title="Denver City Limits" alt="" />
+              <figcaption>Denver City Limits</figcaption>
+            </a>
+          </article> -->
           <article class="from-right">
             <a href="https://drive.google.com/file/d/1mcm2m7y-b7LxVDdg_oqkguVK2Jx75You/view?usp=sharing" target="_blank" class="image fit"
               ><img src="images/Projects/Resume-Thumb_2.png" title="Carry on" alt=""
-            /></a>
+            />
+            <figcaption>Resume</figcaption>
+          </a>
           </article>
         </div>
       </div>
@@ -124,34 +128,17 @@
     <section id="contact" class="main style3 secondary">
       <div class="content">
         <header>
-          <h2>Say Hello.</h2>
-          <p>
-            Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore
-            condimentum.
-          </p>
+          <h2>Let's Connect.</h2>
+          <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/shanedorsey/" target="_blank"
+                class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            <li><a href="https://github.com/scdorsey22" target="_blank" class="icon brands fa-github"><span
+                  class="label">Github</span></a></li>
+            <li><a href="mailto: scdorsey22@gmail.com" class="icon fa-solid fa-envelope"><span
+                  class="label">Email</span></a></li>
+          </ul>
         </header>
-        <div class="box">
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field half">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div class="field half">
-                <input type="email" name="email" placeholder="Email" />
-              </div>
-              <div class="field">
-                <textarea
-                  name="message"
-                  placeholder="Message"
-                  rows="6"
-                ></textarea>
-              </div>
-            </div>
-            <ul class="actions special">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
-          </form>
-        </div>
+        <img src="images/thumbs/B1429E60-6F9A-462A-BC88-C999E1ADCB9A_1_201_a.jpeg" class="box" id="headshot" title="headshot" alt="" />
       </div>
     </section>
 
@@ -160,41 +147,15 @@
       <!-- Icons -->
       <ul class="icons">
         <li>
-          <a href="#" class="icon brands fa-twitter"
-            ><span class="label">Twitter</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-facebook-f"
-            ><span class="label">Facebook</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-instagram"
-            ><span class="label">Instagram</span></a
-          >
-        </li>
-        <li>
           <a href="#" class="icon brands fa-linkedin-in"
             ><span class="label">LinkedIn</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-dribbble"
-            ><span class="label">Dribbble</span></a
-          >
-        </li>
-        <li>
-          <a href="#" class="icon brands fa-pinterest"
-            ><span class="label">Pinterest</span></a
           >
         </li>
       </ul>
 
       <!-- Menu -->
       <ul class="menu">
-        <li>&copy; Untitled</li>
-        <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        <li>Shane Dorsey | Full Stack Developer</li>
       </ul>
     </footer>
 
