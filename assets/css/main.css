@@ -2322,14 +2322,14 @@ input, select, textarea {
 
 .typed-out {
   overflow: hidden;
-  border-right: .1em solid white;
+  border-right: .1em solid #ffffff;
   white-space: nowrap;
   letter-spacing: .01em;
   font-size: 1rem;
   width: 0;
   animation: 
-      typing 2s steps(20, end) forwards,
-      blink 1s infinite;
+      typing 2.5s steps(20, end) forwards,
+      blink 1.8s infinite;
 }
 
 .container {
@@ -2343,5 +2343,5 @@ input, select, textarea {
 
 @keyframes blink {
 	from { border-color: transparent }
-	to { border-color: black; }
+	to { border-color: #ffffff; }
   }
