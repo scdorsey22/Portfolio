@@ -1879,6 +1879,17 @@ input, select, textarea {
 						outline: 0;
 					}
 
+					#header nav ul li:last-child { 
+						border: 2px solid;
+						border-color: #00c5fe;
+						width: 120px;
+						text-align: center;
+						border-radius: 5%;
+						color: white;
+						font-weight: 500;
+						background-color: #00c5fe;
+					}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -2161,6 +2172,7 @@ input, select, textarea {
 
 			.main > .content > .container {
 				max-width: calc(100% - 1.5em);
+				
 			}
 
 		}
