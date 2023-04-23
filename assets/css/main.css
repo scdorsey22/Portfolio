@@ -1422,9 +1422,10 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		width: 45em;
+		width: 100%;
 		max-width: 100%;
 		margin: 0 auto 2em auto;
+		justify-content: center;
 	}
 
 		.gallery article {
@@ -1439,6 +1440,7 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
+			padding: 5px;
 		}
 
 			.gallery article .image {
@@ -1818,6 +1820,15 @@ input, select, textarea {
 				}
 
 		}
+
+/* Gallery Hover Effect */
+
+.gallery article:hover {
+	-moz-transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	transform: translateY(-5px);
+  }
 
 /* Header */
 
